@@ -29,7 +29,7 @@ echo ""
 curl -s http://apache.spinellicreations.com/zeppelin/zeppelin-0.8.1/zeppelin-0.8.1-bin-netinst.tgz | tar xz
 mv zeppelin-0.8.1-bin-netinst zeppelin-home
 notice SLF4J warnings are ok
-$build_dir/zeppelin-home/bin/install-interpreter.sh --name postgresql 2>&1 | sed  's/^/         /'
+#$build_dir/zeppelin-home/bin/install-interpreter.sh --name postgresql 2>&1 | sed  's/^/         /'
 #rm -rf  $build_dir/zeppelin-home/interpreter/spark/dep
 rm -rf  $build_dir/zeppelin-home/interpreter/spark/R
 rm -rf  $build_dir/zeppelin-home/interpreter/spark/pyspark
