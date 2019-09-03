@@ -7,7 +7,7 @@
     "private-spaces",
     "dns-discovery"
   ],
-  "repository": "https://github.com/heroku/zeppelin-in-space",
+  "repository": "https://github.com/ugoenyioha/zeppelin-in-space",
   "env": {
     "ZEPPELIN_ADMIN_PASSWORD": {
       "description": "Password for 'admin' user access.",
@@ -41,7 +41,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/spark-in-space.git"
+      "url": "https://github.com/ugoenyioha/spark-in-space.git"
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-jvm-common.git"

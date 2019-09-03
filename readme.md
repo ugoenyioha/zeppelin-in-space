@@ -5,7 +5,7 @@ Heroku Button deploy of Apache Zeppelin notebooks for Apache Spark and Postgres
 requires: a private space with dns-discovery enabled, and either a [spark-in-space](https://github.com/heroku/spark-in-space) cluster running.
 or heroku postgres attached.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/zeppelin-in-space)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ugoenyioha/zeppelin-in-space)
 
 Note: The rest of this readme assumes you have set your app name as `$app`, and your spark cluster app name as `$spark` in your shell, like so 
 
@@ -41,7 +41,7 @@ Edit the text to read as follows, and then hit Shift+Enter to run the notebook a
 sc.parallelize(1 to 12345).reduce(_+_)
 ```
 
-You can also look at the spark cluster ui to see what is runing. See the [spark-in-space](https://github.com/heroku/spark-in-space) docs on how to look at the ui.
+You can also look at the spark cluster ui to see what is runing. See the [spark-in-space](https://github.com/ugoenyioha/spark-in-space) docs on how to look at the ui.
 
 ### adding more spark clusters
 
