@@ -19,7 +19,7 @@
     },
     "SPARK_INTERPRETER_APPS": {
       "description": "comma seperated list of spark-in-space clusters you want to notebook ok",
-      "required": true
+      "value": "advisory-spark",
     },
     "DATABASE_INTERPRETER_URLS": {
       "description": "comma seperated list of database url config var names (DATABASE_URL,OTHER_URL)",
@@ -40,9 +40,9 @@
     }
   ],
   "buildpacks": [
-//    {
-//      "url": "https://github.com/ugoenyioha/spark-in-space.git"
-//    },
+    {
+      "url": "https://github.com/ugoenyioha/spark-in-space.git"
+    },
     {
       "url": "https://github.com/heroku/heroku-buildpack-jvm-common.git"
     },
