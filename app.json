@@ -41,6 +41,9 @@
   ],
   "buildpacks": [
     {
+      "url": "https://github.com/ugoenyioha/spark-in-space#nohadoop"
+    },
+    {
       "url": "https://github.com/heroku/heroku-buildpack-jvm-common.git"
     },
     {
