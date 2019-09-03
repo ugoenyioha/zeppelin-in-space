@@ -19,7 +19,7 @@
     },
     "SPARK_INTERPRETER_APPS": {
       "description": "comma seperated list of spark-in-space clusters you want to notebook ok",
-      "required": false
+      "required": true
     },
     "DATABASE_INTERPRETER_URLS": {
       "description": "comma seperated list of database url config var names (DATABASE_URL,OTHER_URL)",
